@@ -1,7 +1,6 @@
 ---
 - name: Deploy Maven Artifact
   hosts: local
-  become: yes
   tasks:
     - name: Copy the artifact to the deployment directory
       copy:
